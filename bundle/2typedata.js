@@ -23,3 +23,5 @@ let hello = `hello ${nama}`;
 console.log(isMarried);
 console.log(myName);
 console.log(fullName);
+let akuManusia;
+akuManusia = "adi";
