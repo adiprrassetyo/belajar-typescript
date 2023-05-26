@@ -27,3 +27,12 @@ let hello: string = `hello ${nama}`;
 console.log(isMarried);
 console.log(myName);
 console.log(fullName);
+
+type Wanita = string;
+type Pria = string;
+
+type Kelamin = Wanita | Pria;
+
+let akuManusia: Kelamin;
+
+akuManusia = "adi";
